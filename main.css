@@ -1,0 +1,3 @@
+.animals{display:flex;flex-wrap:wrap;width:95%;justify-content:space-between}.animals img{height:400px;margin:20px;border-radius:10px}.loading{width:400px;height:400px;justify-content:center;display:flex;align-items:center;border-radius:10px;margin:20px}
+
+.back-button{margin:10px !important}.fireplace{height:50vh;margin-top:50px;border-radius:5px}
