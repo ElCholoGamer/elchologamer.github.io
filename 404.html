@@ -8,6 +8,16 @@
 			body {
 				padding: 20px;
 			}
+
+			button {
+				margin: 10px !important;
+			}
+
+			.fireplace {
+				height: 50vh;
+				margin-top: 50px;
+				border-radius: 5px;
+			}
 		</style>
 
 		<link
@@ -16,7 +26,20 @@
 		/>
 		<title>404 Not Found</title>
 	</head>
-	<body class="bg-dark">
+	<body class="bg-light">
+		<h1>End of the road 🚗</h1>
+		<br />
+		<h4>Looks like you're lost! Try some of these out:</h4>
+		<br />
+		<button class="btn btn-success" onClick="back()">Go Back</button>
+		<br />
+		<button class="btn btn-primary" onClick="redirect('/')">
+			Go to Main Page
+		</button>
+
+		<br />
+
+		<img class="fireplace" src="/assets/fireplace.gif" alt="fireplace" />
 		<script>
 			const back = () => history.back();
 			const redirect = path => (window.location.href = path);
