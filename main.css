@@ -1,4 +1,47 @@
-*{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-.animals{display:flex;flex-wrap:wrap;width:95%;justify-content:space-between}.animals img{height:400px;margin:20px;border-radius:10px}.loading{width:400px;height:400px;justify-content:center;display:flex;align-items:center;border-radius:10px;margin:20px}
-.meme-input{min-width:350px;max-width:80vw}input[type=file]{display:none}
-canvas{border:solid #000 2px}.canvas-div{display:flex;flex-wrap:wrap;align-items:stretch}#canvasOptions{padding:50px;margin:0 20px}
+.animals {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	justify-content: space-between;
+}
+
+.animal-img {
+	height: 400px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.loading {
+	width: 400px;
+	height: 400px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.meme-input {
+	min-width: 350px;
+	max-width: 80vw;
+}
+
+input[type='file'] {
+	display: none;
+}
+
+canvas {
+	border: solid black 2px;
+}
+
+.canvas-div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+#canvasOptions {
+	padding: 50px;
+	margin: 0 20px;
+}
+
