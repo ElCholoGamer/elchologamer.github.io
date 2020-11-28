@@ -32,6 +32,7 @@ input[type='file'] {
 
 canvas {
 	border: solid black 2px;
+	touch-action: none;
 }
 
 .canvas-div {
