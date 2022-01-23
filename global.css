@@ -1,44 +1,6 @@
-.transparent {
-	color: transparent;
-}
-
-.green {
-	color: #88c549;
-}
-
-.light-blue {
-	color: #648aa8;
-}
-
-#title {
-	margin: 120px 20px 80px;
-	text-align: center;
-	white-space: pre;
-}
-
-#fallback {
-	display: none;
-}
-
-@media screen and (max-width: 650px) {
-	#title {
-		margin-top: 80px;
-		margin-bottom: 50px;
-	}
-
-	#fallback {
-		display: inline;
-	}
-
-	#prefix {
-		display: none;
-	}
-}
-
 @font-face {
-	font-family: 'Ubuntu Mono';
-	font-weight: normal;
-	src: url(/assets/fonts/UbuntuMono-R.ttf);
+	font-family: Ubuntu Mono;
+	src: url('/assets/fonts/UbuntuMono-R.ttf');
 }
 
 :root {
@@ -66,7 +28,7 @@ body {
 
 .linux-theme {
 	--background: #2c001e;
-	--font: 'Ubuntu Mono';
+	--font: 'Ubuntu Mono', monospace;
 }
 
 p {
@@ -124,3 +86,39 @@ h3 {
 	width: 40%;
 }
 
+.transparent {
+	color: transparent;
+}
+
+.green {
+	color: #88c549;
+}
+
+.light-blue {
+	color: #648aa8;
+}
+
+#title {
+	margin: 120px 20px 80px;
+	text-align: center;
+	white-space: pre;
+}
+
+#fallback {
+	display: none;
+}
+
+@media screen and (max-width: 650px) {
+	#title {
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+
+	#fallback {
+		display: inline;
+	}
+
+	#prefix {
+		display: none;
+	}
+}
