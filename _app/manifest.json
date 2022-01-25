@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-d366fc63.js",
+    "file": "start-30f430e5.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -10,7 +10,7 @@
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
-      "src/routes/404.html.svelte"
+      "src/routes/404.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -37,32 +37,32 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-79bfd98e.js",
+    "file": "pages/index.svelte-539cab33.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-c1200c93.js",
-      "_TerminalWindow-11f47e11.js",
+      "_TerminalWindow-80a868a3.js",
       "_utils-e2a70828.js"
     ],
     "css": [
       "assets/pages/index.svelte-c1c6fd20.css"
     ]
   },
-  "src/routes/404.html.svelte": {
-    "file": "pages/404.html.svelte-cf80e349.js",
-    "src": "src/routes/404.html.svelte",
+  "src/routes/404.svelte": {
+    "file": "pages/404.svelte-acbfb8f0.js",
+    "src": "src/routes/404.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-c1200c93.js",
-      "_TerminalWindow-11f47e11.js",
+      "_TerminalWindow-80a868a3.js",
       "_Title-0315b95f.js",
       "_utils-e2a70828.js"
     ],
     "css": [
-      "assets/pages/404.html.svelte-04d2cd95.css"
+      "assets/pages/404.svelte-209e85e9.css"
     ]
   },
   "_vendor-c1200c93.js": {
@@ -77,14 +77,14 @@
   "_utils-e2a70828.js": {
     "file": "chunks/utils-e2a70828.js"
   },
-  "_TerminalWindow-11f47e11.js": {
-    "file": "chunks/TerminalWindow-11f47e11.js",
+  "_TerminalWindow-80a868a3.js": {
+    "file": "chunks/TerminalWindow-80a868a3.js",
     "imports": [
       "_vendor-c1200c93.js",
       "_utils-e2a70828.js"
     ],
     "css": [
-      "assets/TerminalWindow-fbe5dc04.css"
+      "assets/TerminalWindow-33e66420.css"
     ]
   }
 }
