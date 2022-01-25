@@ -1,1 +1,0 @@
-function g(t){const e=new Date;let n=e.getFullYear()-t.getFullYear();const o=e.getMonth()-t.getMonth();return(o<0||o===0&&e.getDate()-t.getDate())&&n--,n}const a=(t,e)=>Math.random()*(e-t)+t,s=t=>(t&t-1)==0;export{g,s as i,a as r};
