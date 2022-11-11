@@ -1,1 +1,1 @@
-function a(t){const n=new Date;let e=n.getFullYear()-t.getFullYear();const o=n.getMonth()-t.getMonth();return(o<0||o===0&&n.getDate()-t.getDate())&&e--,e}const g=(t,n)=>Math.random()*(n-t)+t,s=()=>Math.random()>.5?1:-1,r=t=>(t&t-1)==0;export{s as a,a as g,r as i,g as r};
+function a(t){const n=new Date;let e=n.getFullYear()-t.getFullYear();const o=n.getMonth()-t.getMonth();return(o<0||o===0&&n.getDate()-t.getDate())&&e--,e}const g=(t,n)=>Math.random()*(n-t)+t,s=()=>Math.random()>.5?1:-1,r=t=>(t&t-1)===0;export{s as a,a as g,r as i,g as r};
